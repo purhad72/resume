@@ -12,10 +12,13 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color:#112e42;
+    /* --bg-color: #081b29; */
+    --bg-color: #06262d;
+    /* --second-bg-color:#112e42; */
+    --second-bg-color: #051a1f;
     --text-color:#ededed;
-    --main-color:#00abf0;
+    /* --main-color:#00abf0; */
+    --main-color: #e4eaea;
 }
 
 html{
@@ -290,7 +293,7 @@ span {
 }
 
 .about-content {
-    text-align: center;
+    text-align: auto;
 }
 
 .about-content h3 {
@@ -298,8 +301,8 @@ span {
 }
 
 .about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    font-size: 1.5rem;
+    margin: 3rem 0 5rem;
 }
 
 .btn-box.btns {

@@ -415,7 +415,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
     min-height: auto;   
     padding-bottom: 5rem;
 }
@@ -471,7 +471,7 @@ span {
     left: 0;
     width: 0%;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     z-index: -1;
     transition: .5s;
 }

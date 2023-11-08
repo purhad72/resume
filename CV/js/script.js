@@ -34,6 +34,6 @@ window.onscroll = () => {
 
     // remove toogle icon and navbar when click navbar links (scroll)
     
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 }
